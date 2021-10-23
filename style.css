@@ -69,24 +69,26 @@ h1{
 }
 
 a {
-    color: var(--grey);
+    color: #F99C31;
     margin-top: .25rem;
-
     display: flex;
     align-items: center;
     justify-content:center;
-    gap: .75rem;
+    gap: .5rem;
+    transition: hover .1 ease-in-out;
+
    
 }
 
+a:hover{
+    filter: brightness(90%);
+    
+}
 p{
     margin-top: 2rem;
 
 }
-.social-media{
-   
 
-}
 
 .social-media ul{
     margin-top: 4rem;
@@ -99,7 +101,3 @@ p{
     margin-top: 32px; */
 }
 
-.social-media ul li{
- 
-
-}
